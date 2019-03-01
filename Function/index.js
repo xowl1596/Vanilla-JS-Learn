@@ -11,3 +11,8 @@ function sayHello2(name){
 //call Function
 sayHello();
 sayHello2("blah");
+
+//DOM functions
+//select tag by id attribute
+const title = document.getElementById("title");
+title.innerHTML = "Changed!";
